@@ -1,0 +1,150 @@
+Starting MDM evaluation at Thu Oct 30 19:36:01 IST 2025
+Will save to log file [save/my_humanml_trans_enc_512-2/eval_humanml_my_humanml_trans_enc_512-2_000600161_gscale2.5_mm_short.log]
+Eval mode [mm_short]
+Logging to /tmp/openai-2025-10-30-19-36-17-637185
+creating data loader...
+Reading ././dataset/humanml_opt.txt
+Loading dataset t2m ...
+Loading motions from cache file [./dataset/t2m_test.npy]...
+Pointer Pointing at 0
+Reading ././dataset/humanml_opt.txt
+Loading dataset t2m ...
+Loading motions from cache file [./dataset/t2m_test.npy]...
+Pointer Pointing at 0
+Creating model and diffusion...
+DiT TRANS_ENC init with adaLN-Zero
+EMBED TEXT
+Loading CLIP...
+Loading checkpoints from [save/my_humanml_trans_enc_512-2/model000600161.pt]...
+checkpoint has no avg model, loading as usual.
+Loading Evaluation Model Wrapper (Epoch 11) Completed!!
+Generating test ...
+real_num_batches 32
+mm_idxs [ 2  5  7 20]
+Generated Dataset Loading Completed!!!
+==================== Replication 0 ====================
+Time: 2025-10-30 22:03:22.284442
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2192
+---> [ground truth] R_precision: (top 1): 0.4547 (top 2): 0.6616 (top 3): 0.7707 
+---> [vald] Matching Score: 3.5580
+---> [vald] R_precision: (top 1): 0.4111 (top 2): 0.6006 (top 3): 0.7090 
+Time: 2025-10-30 22:03:32.884845
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0011
+---> [vald] FID: 0.8749
+Time: 2025-10-30 22:03:39.837776
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.4347
+---> [vald] Diversity: 9.3185
+Time: 2025-10-30 22:03:39.839890
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.2684
+!!! DONE !!!
+Generating test ...
+real_num_batches 32
+mm_idxs [16 25 27 30]
+Generated Dataset Loading Completed!!!
+==================== Replication 1 ====================
+Time: 2025-10-31 00:30:57.482128
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2367
+---> [ground truth] R_precision: (top 1): 0.4612 (top 2): 0.6619 (top 3): 0.7677 
+---> [vald] Matching Score: 3.6109
+---> [vald] R_precision: (top 1): 0.3926 (top 2): 0.5869 (top 3): 0.7070 
+Time: 2025-10-31 00:31:09.031721
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0012
+---> [vald] FID: 1.0850
+Time: 2025-10-31 00:31:16.779665
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.2957
+---> [vald] Diversity: 9.4789
+Time: 2025-10-31 00:31:16.781946
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.4538
+!!! DONE !!!
+Generating test ...
+real_num_batches 32
+mm_idxs [10 12 13 15]
+Generated Dataset Loading Completed!!!
+==================== Replication 2 ====================
+Time: 2025-10-31 02:58:20.660268
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2385
+---> [ground truth] R_precision: (top 1): 0.4513 (top 2): 0.6524 (top 3): 0.7670 
+---> [vald] Matching Score: 3.4773
+---> [vald] R_precision: (top 1): 0.4131 (top 2): 0.6074 (top 3): 0.7227 
+Time: 2025-10-31 02:58:32.372886
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0010
+---> [vald] FID: 1.1879
+Time: 2025-10-31 02:58:40.056572
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.2031
+---> [vald] Diversity: 9.1325
+Time: 2025-10-31 02:58:40.058970
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.4899
+!!! DONE !!!
+Generating test ...
+real_num_batches 32
+mm_idxs [ 4 12 13 17]
+Generated Dataset Loading Completed!!!
+==================== Replication 3 ====================
+Time: 2025-10-31 05:25:44.202105
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2267
+---> [ground truth] R_precision: (top 1): 0.4567 (top 2): 0.6601 (top 3): 0.7690 
+---> [vald] Matching Score: 3.4111
+---> [vald] R_precision: (top 1): 0.4092 (top 2): 0.6416 (top 3): 0.7441 
+Time: 2025-10-31 05:25:55.647100
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0011
+---> [vald] FID: 0.7669
+Time: 2025-10-31 05:26:03.317012
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.4087
+---> [vald] Diversity: 9.2511
+Time: 2025-10-31 05:26:03.319424
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.6384
+!!! DONE !!!
+Generating test ...
+real_num_batches 32
+mm_idxs [ 3 10 17 23]
+Generated Dataset Loading Completed!!!
+==================== Replication 4 ====================
+Time: 2025-10-31 07:53:10.417091
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2877
+---> [ground truth] R_precision: (top 1): 0.4394 (top 2): 0.6502 (top 3): 0.7616 
+---> [vald] Matching Score: 3.5926
+---> [vald] R_precision: (top 1): 0.4053 (top 2): 0.5840 (top 3): 0.7002 
+Time: 2025-10-31 07:53:22.696090
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0009
+---> [vald] FID: 0.8928
+Time: 2025-10-31 07:53:30.562259
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.4554
+---> [vald] Diversity: 9.3610
+Time: 2025-10-31 07:53:30.565106
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.5831
+!!! DONE !!!
+========== Matching Score Summary ==========
+---> [ground truth] Mean: 3.2418 CInterval: 0.0211
+---> [vald] Mean: 3.5300 CInterval: 0.0658
+========== R_precision Summary ==========
+---> [ground truth](top 1) Mean: 0.4527 CInt: 0.0064;(top 2) Mean: 0.6572 CInt: 0.0043;(top 3) Mean: 0.7672 CInt: 0.0027;
+---> [vald](top 1) Mean: 0.4062 CInt: 0.0064;(top 2) Mean: 0.6041 CInt: 0.0181;(top 3) Mean: 0.7166 CInt: 0.0137;
+========== FID Summary ==========
+---> [ground truth] Mean: 0.0011 CInterval: 0.0001
+---> [vald] Mean: 0.9615 CInterval: 0.1339
+========== Diversity Summary ==========
+---> [ground truth] Mean: 9.3595 CInterval: 0.0839
+---> [vald] Mean: 9.3084 CInterval: 0.1009
+========== MultiModality Summary ==========
+---> [vald] Mean: 2.4867 CInterval: 0.1116
+Evaluation finished at Fri Oct 31 07:53:36 IST 2025

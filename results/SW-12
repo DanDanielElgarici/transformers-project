@@ -1,0 +1,149 @@
+Starting MDM evaluation at Sun Aug 17 08:00:21 PM IDT 2025
+Will save to log file [save/my_humanml_trans_enc_512-2/eval_humanml_my_humanml_trans_enc_512-2_000600161_gscale2.5_mm_short.log]
+Eval mode [mm_short]
+Logging to /tmp/openai-2025-08-17-20-00-26-193875
+creating data loader...
+Reading ././dataset/humanml_opt.txt
+Loading dataset t2m ...
+Loading motions from cache file [./dataset/t2m_test.npy]...
+Pointer Pointing at 0
+Reading ././dataset/humanml_opt.txt
+Loading dataset t2m ...
+Loading motions from cache file [./dataset/t2m_test.npy]...
+Pointer Pointing at 0
+Creating model and diffusion...
+DiT TRANS_ENC init with adaLN-Zero
+EMBED TEXT
+Loading CLIP...
+Loading checkpoints from [save/my_humanml_trans_enc_512-2/model000600161.pt]...
+checkpoint has no avg model, loading as usual.
+Loading Evaluation Model Wrapper (Epoch 11) Completed!!
+Generating test ...
+real_num_batches 32
+mm_idxs [ 2  5  7 20]
+Generated Dataset Loading Completed!!!
+==================== Replication 0 ====================
+Time: 2025-08-18 00:24:22.077353
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2415
+---> [ground truth] R_precision: (top 1): 0.4457 (top 2): 0.6565 (top 3): 0.7619 
+---> [vald] Matching Score: 3.6721
+---> [vald] R_precision: (top 1): 0.3896 (top 2): 0.5723 (top 3): 0.6982 
+Time: 2025-08-18 00:24:30.809847
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0010
+---> [vald] FID: 0.7309
+Time: 2025-08-18 00:24:35.347096
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.2544
+---> [vald] Diversity: 9.6534
+Time: 2025-08-18 00:24:35.348957
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.7851
+!!! DONE !!!
+Generating test ...
+real_num_batches 32
+mm_idxs [16 25 27 30]
+Generated Dataset Loading Completed!!!
+==================== Replication 1 ====================
+Time: 2025-08-18 04:49:04.885954
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2419
+---> [ground truth] R_precision: (top 1): 0.4491 (top 2): 0.6642 (top 3): 0.7737 
+---> [vald] Matching Score: 3.6085
+---> [vald] R_precision: (top 1): 0.3975 (top 2): 0.5938 (top 3): 0.6914 
+Time: 2025-08-18 04:49:13.513883
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0010
+---> [vald] FID: 0.6638
+Time: 2025-08-18 04:49:18.375552
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.3105
+---> [vald] Diversity: 9.8984
+Time: 2025-08-18 04:49:18.377971
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.3715
+!!! DONE !!!
+Generating test ...
+real_num_batches 32
+mm_idxs [10 12 13 15]
+Generated Dataset Loading Completed!!!
+==================== Replication 2 ====================
+Time: 2025-08-18 09:13:49.838735
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2470
+---> [ground truth] R_precision: (top 1): 0.4489 (top 2): 0.6500 (top 3): 0.7655 
+---> [vald] Matching Score: 3.7361
+---> [vald] R_precision: (top 1): 0.3809 (top 2): 0.5684 (top 3): 0.6816 
+Time: 2025-08-18 09:13:58.659481
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0010
+---> [vald] FID: 0.6481
+Time: 2025-08-18 09:14:03.769948
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.0036
+---> [vald] Diversity: 9.7847
+Time: 2025-08-18 09:14:03.772901
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.6125
+!!! DONE !!!
+Generating test ...
+real_num_batches 32
+mm_idxs [ 4 12 13 17]
+Generated Dataset Loading Completed!!!
+==================== Replication 3 ====================
+Time: 2025-08-18 13:39:44.912660
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2354
+---> [ground truth] R_precision: (top 1): 0.4541 (top 2): 0.6597 (top 3): 0.7711 
+---> [vald] Matching Score: 3.7377
+---> [vald] R_precision: (top 1): 0.3750 (top 2): 0.5830 (top 3): 0.6943 
+Time: 2025-08-18 13:39:54.707245
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0011
+---> [vald] FID: 0.5437
+Time: 2025-08-18 13:40:00.113969
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.4096
+---> [vald] Diversity: 9.5050
+Time: 2025-08-18 13:40:00.116660
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.6202
+!!! DONE !!!
+Generating test ...
+real_num_batches 32
+mm_idxs [ 3 10 17 23]
+Generated Dataset Loading Completed!!!
+==================== Replication 4 ====================
+Time: 2025-08-18 18:05:51.578724
+========== Evaluating Matching Score ==========
+---> [ground truth] Matching Score: 3.2530
+---> [ground truth] R_precision: (top 1): 0.4562 (top 2): 0.6593 (top 3): 0.7664 
+---> [vald] Matching Score: 3.7068
+---> [vald] R_precision: (top 1): 0.3916 (top 2): 0.5850 (top 3): 0.7080 
+Time: 2025-08-18 18:06:00.958847
+========== Evaluating FID ==========
+---> [ground truth] FID: 0.0010
+---> [vald] FID: 0.5373
+Time: 2025-08-18 18:06:06.392538
+========== Evaluating Diversity ==========
+---> [ground truth] Diversity: 9.2293
+---> [vald] Diversity: 9.3165
+Time: 2025-08-18 18:06:06.395629
+========== Evaluating MultiModality ==========
+---> [vald] Multimodality: 2.6296
+!!! DONE !!!
+========== Matching Score Summary ==========
+---> [ground truth] Mean: 3.2438 CInterval: 0.0052
+---> [vald] Mean: 3.6922 CInterval: 0.0422
+========== R_precision Summary ==========
+---> [ground truth](top 1) Mean: 0.4508 CInt: 0.0033;(top 2) Mean: 0.6579 CInt: 0.0041;(top 3) Mean: 0.7677 CInt: 0.0037;
+---> [vald](top 1) Mean: 0.3869 CInt: 0.0070;(top 2) Mean: 0.5805 CInt: 0.0080;(top 3) Mean: 0.6947 CInt: 0.0076;
+========== FID Summary ==========
+---> [ground truth] Mean: 0.0010 CInterval: 0.0000
+---> [vald] Mean: 0.6248 CInterval: 0.0651
+========== Diversity Summary ==========
+---> [ground truth] Mean: 9.2415 CInterval: 0.1176
+---> [vald] Mean: 9.6316 CInterval: 0.1798
+========== MultiModality Summary ==========
+---> [vald] Mean: 2.6038 CInterval: 0.1162

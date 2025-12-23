@@ -3,6 +3,8 @@
 This repository contains an **ablation study** on the [Motion Diffusion Model (MDM)](https://github.com/GuyTevet/motion-diffusion-model/tree/main),  
 exploring the integration of **Diffusion Transformer (DiT)** components, attention mechanisms, and tokenization strategies.
 
+Authors:
+Gil Kizner · Daniel Elgarici
 ---
 
 ## 🔍 Overview
